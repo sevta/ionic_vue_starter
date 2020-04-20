@@ -12,3 +12,10 @@
     </ion-content>
   </ion-page>
 </template>
+<script>
+export default {
+  mounted() {
+    console.log("tab2 mounted");
+  },
+};
+</script>

@@ -1,17 +1,17 @@
 <template>
   <ion-tabs>
-    <ion-tab tab="tab1" :routes="'tab1'">
+    <ion-tab tab="tab1">
       <Tab1 />
     </ion-tab>
-    <ion-tab tab="tab2" :routes="'tab2'">
+    <ion-tab tab="tab2">
       <Tab2 />
     </ion-tab>
     <template slot="bottom">
       <ion-tab-bar>
-        <ion-tab-button tab="tab1" :to="{ name: 'tab1' }">
+        <ion-tab-button tab="tab1">
           <ion-label>Tab1</ion-label>
         </ion-tab-button>
-        <ion-tab-button tab="tab2" :to="{ name: 'tab2' }">
+        <ion-tab-button tab="tab2">
           <ion-label>Tab2</ion-label>
         </ion-tab-button>
       </ion-tab-bar>

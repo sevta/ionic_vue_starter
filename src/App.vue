@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <ion-app>
-      <Tabs />
       <ion-vue-router />
     </ion-app>
   </div>
